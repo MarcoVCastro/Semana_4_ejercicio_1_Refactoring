@@ -5,9 +5,10 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
-        permissions:
-      issues: write
-      pull-requests: write
+    
+    permissions:
+    issues: write
+    pull-requests: write
 
     steps:
     - uses: actions/checkout@v1
