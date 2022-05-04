@@ -4,7 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js"
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js",
+    "linter": "node --experimental-vm-modules ./node_modules/eslint/bin/eslint.js .",
+    "linter-fix": "node --experimental-vm-modules ./node_modules/eslint/bin/eslint.js . --fix"
   },
   "keywords": [],
   "author": "",
